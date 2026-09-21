@@ -1,49 +1,31 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/style.css">
-    <title>Portifólio</title>
+    <meta name="description" content="Portfólio de Antonio Marcos Silva, desenvolvedor de sistemas Java e líder técnico.">
+    <title>Antonio Marcos | Desenvolvimento de Sistemas Java</title>
 </head>
 <body>
     <header class="cabecalho">
-        <nav class="cabecalho__menu">
-            <a href="index.html"class="cabecalho__menu__link">Home</a>
-            <a href="about.html"class="cabecalho__menu__link">Sobre mim</a>
+        <a class="marca" href="index.html"><span>AM</span> Antonio Marcos</a>
+        <nav class="cabecalho__menu" aria-label="Navegação principal">
+            <a href="#experiencia" class="cabecalho__menu__link">Experiência</a>
+            <a href="about.html" class="cabecalho__menu__link">Sobre mim</a>
+            <a href="#contato" class="botao botao--pequeno">Vamos conversar</a>
         </nav>    
     </header>
-    <main class="apresentacao">
-        <section class="apresentacao__conteudo">
-            <h1 class="apresentacao__conteudo__titulo">Eleve seu negócio digital a outro nível             
-                <strong class="titulo__destaque">com um Front-end de qualidade!</strong></h1>
-            <p class="apresentacao__conteudo__texto">Olá! Sou Antonio Silva, desenvolvedor Front-end com especialidade em React, HTML e CSS. 
-                Ajudo pequenos negócios e designers a colocarem em prática boas ideias. Vamos conversar?</p>
-            <div class="apresentacao__links">
-                <h2 class="apresentacao__links__subtitulo">Acesse minhas redes:</h2>
-                <a href="https://github.com/tonimarcs" class="apresentacao__links__navegacao">
-                    <img src="assets/Github.png" alt="GitHub">
-                    GitHub
-                </a>
-                <a href="https://www.linkedin.com/in/antonio-marcos-silva-13809519/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BwMTEDQ%2BCR%2FOUpFmRl%2FxYpw%3D%3D" class="apresentacao__links__navegacao">
-                    <img src="assets/Linkedin.png" alt="Linkedin">
-                    Linkedin
-                </a>
-                <a href="https://www.twitch.tv" class="apresentacao__links__navegacao">
-                    <img src="assets/Twitch.png" alt="Twitch">
-                    Twitch
-                </a>
-
-            </div>      
-        </section>
-
-        <section>
-            <img class="apresentacao__imagem" src="assets/Imagem.png" alt="Imagem Pessoal" class="main__imagem">
-        </section>
+    <main class="curriculo">
+        <section class="perfil"><div class="perfil__capa"></div><div class="perfil__corpo"><img class="perfil__foto" src="assets/Imagem.png" alt="Antonio Marcos trabalhando no computador"><div class="perfil__acoes"><a class="botao" href="#contato">Entrar em contato</a><a class="botao botao--contorno" href="about.html">Ver currículo completo</a></div><p class="etiqueta">DESENVOLVIMENTO DE SISTEMAS · LIDERANÇA TÉCNICA</p><h1>Antonio Marcos Silva</h1><p class="perfil__cargo">Desenvolvedor Java Sênior · Líder Técnico em Engenharia de Software</p><p class="perfil__local">45 anos · Duque de Caxias, RJ · <a href="#contato">Informações de contato</a></p><p class="perfil__intro">Profissional com mais de 18 anos em Tecnologia da Informação e Engenharia de Software, com foco no desenvolvimento, sustentação e evolução de sistemas críticos usando Java, Spring Boot, microsserviços e plataformas cloud-native.</p><div class="perfil__numeros"><div><strong>18+</strong><span>anos em tecnologia</span></div><div><strong>Java</strong><span>desenvolvimento de sistemas</span></div><div><strong>Lead</strong><span>liderança técnica</span></div></div></div></section>
+        <section class="resumo-profissional"><div><p class="sobretitulo">RESUMO PROFISSIONAL</p><h2>Desenvolvimento de sistemas com visão de arquitetura.</h2></div><p>Atuo no ciclo completo de desenvolvimento, sustentação e evolução de sistemas de alta criticidade. Meu foco é construir software: transformar requisitos em soluções robustas, integrar APIs, trabalhar com arquitetura de microsserviços e garantir qualidade. A liderança técnica entra como parte desse trabalho, apoiando decisões, cronogramas e a evolução do time.</p></section>
+        <section class="curriculo__experiencia" id="experiencia"><div class="secao__cabecalho"><div><p class="sobretitulo">EXPERIÊNCIA PROFISSIONAL</p><h2>Minha trajetória</h2></div><a class="link-seta" href="about.html">Ver detalhes <span>↗</span></a></div><div class="experiencia-resumida"><article><span>2019 · presente</span><div><p>NTT DATA BRASIL</p><h3>Project Lead · Líder Técnico</h3><p>Liderança técnica de sistemas críticos de alta disponibilidade, APIs REST/SOAP, Kubernetes, Docker e gestão de equipes.</p></div></article><article><span>2013 · 2019</span><div><p>LIQ CORP S/A</p><h3>Analista de TI Pleno · Programador Pleno</h3><p>Desenvolvimento de aplicações URA e integração de plataformas legadas e modernas para a operadora Oi.</p></div></article><article><span>2009 · 2013</span><div><p>TODO BPO</p><h3>Suporte Técnico 3 · Operador de Sala Técnica II</h3><p>Monitoração de ambientes de missão crítica e implantação de infraestrutura em Data Centers.</p></div></article></div></section>
+        <section class="competencias-resumidas"><div><p class="sobretitulo">COMPETÊNCIAS-CHAVE</p><h2>Onde entrego mais valor.</h2></div><div class="tags tags--grandes"><span>Java</span><span>Spring Boot</span><span>Spring Cloud</span><span>Microsserviços</span><span>Kubernetes</span><span>Docker</span><span>APIs REST/SOAP</span><span>URA & Telecom</span><span>Oracle</span><span>PostgreSQL</span><span>Angular</span><span>Git</span></div></section>
+        <section class="secao secao--dupla" id="contato"><div><p class="sobretitulo">CONTATO PROFISSIONAL</p><h2>Vamos conversar sobre o próximo desafio.</h2><p class="texto-suave">Estou disponível para oportunidades de liderança técnica, desenvolvimento Java e engenharia de software.</p><div class="dados-contato"><a href="mailto:tonimarcs@gmail.com">tonimarcs@gmail.com <span>↗</span></a><a href="tel:+5521986586707">(21) 98658-6707 <span>↗</span></a><p>Av. Expedicionário José Amaro, Duque de Caxias - RJ</p></div></div><div class="conexoes"><p class="sobretitulo">LINKS PROFISSIONAIS</p><a href="https://github.com/tonimarcs" target="_blank" rel="noreferrer"><img src="assets/github.png" alt=""> GitHub <span>↗</span></a><a href="https://www.linkedin.com/in/antonio-marcos-silva-13809519" target="_blank" rel="noreferrer"><img src="assets/Linkedin.png" alt=""> LinkedIn <span>↗</span></a></div></section>
     </main>
     <footer class="rodape">
-        <h3>Desenvolvido por Alura.</h3>
+        <span>AM</span><p>Feito com intenção por Antonio Marcos · 2024</p><a href="#">Voltar ao topo ↑</a>
     </footer>
 </body>
 </html>
